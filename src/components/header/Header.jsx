@@ -6,7 +6,7 @@ import logoImg from '../../img/icons/logo.svg';
 const Header = () => {
   return (
     <div className="header">
-      <div classname="container">
+      <div className="container">
         <div className="header__row">
           <div className="header__logo">
             <img src={logoImg} alt="" />
