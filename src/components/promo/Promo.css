@@ -13,8 +13,7 @@
 	background-color: #f4f6f5;
 }
 
-.promo__img {
-
+.promo__text {
 }
 
 .promo__title {
@@ -83,8 +82,6 @@
 }
 
 .highlight--yellow::before {
-  right: -110px;
-  background-color: var(--yellow);
+    right: -110px;
+    background-color: var(--yellow);
 }
-
-
