@@ -1,0 +1,86 @@
+.baner {
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+.baner__content {
+  display: flex;
+  justify-content: center;
+}
+
+.baner img {
+  width: 100%;
+  height: 100%;
+}
+
+.baner__list {
+  margin: 2px 2px 4px 50px;
+}
+
+.baner__title {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.baner__text {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.baner__desc span {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  padding-bottom: 10px;
+}
+
+.baner__desc p {
+  font-weight: 400;
+  font-size:  36px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.baner__btn-wrapper {
+  padding-top: 30px;
+  display: flex;
+}
+
+.baner__btn {
+  padding: 28px 51px;
+  background-color: #000;
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highligh span {
+  position: relative;
+  z-index: 1;
+}
+
+.highlight::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 5px;
+	bottom: 0px;
+	left: -40px;
+	right: -160px;
+	background-color: #fff;
+	transform: rotate(-1deg);
+}

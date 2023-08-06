@@ -1,0 +1,14 @@
+.favourite {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.favourite__header {
+  margin-bottom: 100px;
+}
+
+.favourite__card {
+  display: flex;
+  justify-content: center;
+  column-gap: 42px;
+}
