@@ -1,0 +1,57 @@
+.promoInput {
+  background-color: #E5C643;
+  padding-top: 100px;
+}
+
+.promoInput__content {
+  text-align: center;
+}
+
+.promoInput__title {
+  margin-bottom: 37px;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.promoInput__text {
+  margin-bottom: 49px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+
+.promoInput__input {
+  margin-bottom: 30px;
+  width: 574px;
+  height: 87px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.promoInput__btn-wrapper {
+  padding-bottom: 50px;
+}
+
+.promoInput__btn {
+  margin-bottom: 30px;
+  padding: 28px 51px;
+  background-color: #000;
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  
+
+}
